@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color: rgb(7, 4, 1);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    
+}
+
+main{
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 8px solid skyblue;
+    border-radius: 20px;
+}
+
+.month-name{
+    height: 70px;
+    background-color: skyblue;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.day-name{
+    color: darkslategrey;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.curr-date{
+    font-size:70px ;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.curr-year{
+    color: darkslategrey;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+.curr-time{
+    background-color: skyblue;
+    color: whitesmoke;
+    padding-top: 5px;
+}
